@@ -11,7 +11,7 @@
 }
 
 ::selection {
-  background: #2ddab8;
+  background: #ffffff;
   color: white;
 }
 
@@ -21,8 +21,8 @@ body {
   background: #5dd481;
   overflow: hidden;
   font-family: "Sulphur Point", sans-serif;
-  color: #8b8b8b;
-  font-size: 0.9rem;
+  color: #131111;
+  font-size: 1.5rem;
 }
 
 a {
@@ -130,6 +130,6 @@ a:hover {
   }
   .bottom-left {
     padding: 0 0 2rem 3.7rem;
-    width: 400px
+    width: 450px
   }
 }

@@ -14,7 +14,7 @@ import "./styles.css"
 function Startup() {
   const ref = useRef()
   useFrame(() => (ref.current.material.opacity = lerp(ref.current.material.opacity, 0, 0.025)))
-  return <Plane ref={ref} color="#0e0e0f" position={[0, 0, 200]} scale={[100, 100, 1]} />
+  return <Plane ref={ref} color="#ffffff" position={[0, 0, 200]} scale={[100, 100, 1]} />
 }
 
 function Paragraph({ image, index, offset, factor, header, aspect, text }) {
@@ -23,7 +23,7 @@ function Paragraph({ image, index, offset, factor, header, aspect, text }) {
   const alignRight = (canvasWidth - w * size - margin) / 2
   const pixelWidth = w * state.zoom * size
   const left = !(index % 2)
-  const color = index % 2 ? "#D40749" : "#2FE8C3"
+  const color = index % 2 ? "#D40749" : "#e8482f"
   return (
     <Block factor={factor} offset={offset}>
       <group position={[left ? -alignRight : alignRight, 0, 0]}>
@@ -37,8 +37,8 @@ function Paragraph({ image, index, offset, factor, header, aspect, text }) {
           {header}
         </Text>
         <Block factor={0.2}>
-          <Text opacity={0.5} size={w * 0.5} color="#1A1E2A" position={[((left ? w : -w) / 2) * size, (w * size) / aspect / 1, -10]}>
-            {"0" + (index + 1)}
+          <Text opacity={0.5} size={w * 0.5} color="#ffffff" position={[((left ? w : -w) / 2) * size, (w * size) / aspect / 1, -10]}>
+            {"+" + (index + 5 )}
           </Text>
         </Block>
       </group>
@@ -69,7 +69,7 @@ function Content() {
         </Block>
       </Block>
       <Block factor={1.2} offset={5.7}>
-        <MultilineText top left size={w * 0.15} lineHeight={w / 4} position={[-w / 2.0, 0, -1]} color="#2fe8c3" text={"four\nzero\nzero"} />
+        <MultilineText top left size={w * 0.10} lineHeight={w / 4} position={[-w / 2.0, 0, -1]} color="#ad9e51" text={"ANY\nWHERE"} />
       </Block>
       {state.paragraphs.map((props, index) => (
         <Paragraph key={index} index={index} {...props} image={images[index]} />
@@ -81,7 +81,7 @@ function Content() {
       ))}
       <Block factor={1.25} offset={8}>
         <Html style={{ color: "white" }} className="bottom-left" position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
-          Culture is not your friend.
+          github.com/findthefunction
         </Html>
       </Block>
     </>
