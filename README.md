@@ -6,7 +6,7 @@ Adding interactive functions and dynamic visual effects.
 
 ### Photocredit
 
-ME <a href=https://findthefunction.io>
+ME <a href="https://findthefunction.io">
 
 Photo by <a href="https://unsplash.com/@santesson89?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrea De Santis</a> on <a href="https://unsplash.com/s/photos/automation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
