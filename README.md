@@ -4,7 +4,7 @@ Working on updating personal website with some three.js tweaks.
 Adding interactive functions and dynamic visual effects.
 
 
-### Photocredit
+### Photocredit / examples
 
 ME <a href="https://findthefunction.io">
 
@@ -15,4 +15,9 @@ Photo by <a href="https://unsplash.com/@timelabpro?utm_source=unsplash&utm_mediu
 Photo by <a href="https://unsplash.com/@manunalys?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maria Lysenko</a> on <a href="https://unsplash.com/s/photos/chain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@mehdisepehri?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mehdi Sepehri</a> on <a href="https://unsplash.com/s/photos/birds-flying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@jrkorpa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jr Korpa</a> on <a href="https://unsplash.com/s/photos/automation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brett Jordan</a> on <a href="https://unsplash.com/s/photos/repeat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+https://threejs.org/examples/
